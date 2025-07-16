@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html ng-app="fortuneApp">
+<head>
+  <meta charset="UTF-8">
+  <title>Galleta de la Fortuna</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+  <script src="app.js"></script>
+</head>
+<body ng-controller="MainCtrl">
+  <div class="container">
+
+    <!-- Login -->
+    <div class="login-card" ng-show="!isLogged">
+      <h2>🍪 Galleta de la Fortuna</h2>
+      <input type="text" ng-model="username" placeholder="Nombre de usuario">
+      <button class="btn" ng-click="login()">Entrar</button>
+    </div>
+
+    <!-- Botão principal -->
+    <div class="main-card" ng-show="isLogged && !showFortune">
+      <h2>Hola, {{username}}!</h2>
+      <button class="btn fortune" ng-click="openFortune()">ABRE TU GALLETA</button>
+      <button class="btn exit" ng-click="logout()">Salir</button>
+    </div>
+
+    <!-- Mensagem de fortuna -->
+    <div class="fortune-card" ng-show="showFortune">
+      <h3>Mensaje de la fortuna:</h3>
+      <div class="fortune-message">
+        <p>{{fortuneMessage}}</p>
+      </div>
+      <button class="btn" ng-click="back()">Volver</button>
+    </div>
+
+  </div>
+</body>
+</html>
