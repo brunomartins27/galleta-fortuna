@@ -33,6 +33,11 @@ O objetivo? Sortear mensagens de sabedoria inspiradas na clássica *fortune cook
 
 ---
 
+## 🥇 Demonstração
+
+![Demo do app rodando](./demo.gif)
+
+
 ## 🧑‍💻 Como rodar localmente
 
 1. **Clone o repositório:**
