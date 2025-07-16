@@ -21,7 +21,7 @@ app.controller('MainCtrl', function($scope, $http) {
   };
 
 $scope.openFortune = function() {
-  $http.get('http://127.0.0.1:8002/fortune')
+  $http.get('http://127.0.0.1:8000/fortune')
     .then(function(response) {
       $scope.fortuneMessage = response.data.message || "Sem mensagem";
       $scope.showFortune = true;
