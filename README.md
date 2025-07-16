@@ -35,7 +35,9 @@ O objetivo? Sortear mensagens de sabedoria inspiradas na clássica *fortune cook
 
 ## 🥇 Demonstração
 
-(./demo.gif)
+## 🥇 Demonstração
+
+![Demo do app rodando](./Galletita.gif)
 
 
 ## 🧑‍💻 Como rodar localmente
