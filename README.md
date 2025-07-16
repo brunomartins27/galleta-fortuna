@@ -69,19 +69,21 @@ Podés volver, salir y sortear todas las veces que quieras.
 
 ## 📁 Estructura del proyecto 
 
+```sh
 galleta-fortuna/
 ├── public/
 │   └── fortune-app/
 │       ├── index.html     // SPA AngularJS
 │       ├── app.js        // Lógica AngularJS
-│       └── style.css     // Estilização customizada
+│       └── style.css     // Estilos personalizados
 ├── routes/
-│   └── api.php           // Rotas da API
+│   └── api.php           // Rutas de la API
 ├── app/
 │   └── Http/
 │       └── Controllers/
-│           └── FortuneController.php // Controller de mensagens
+│           └── FortuneController.php // Controlador de mensajes
 └── ...
+```
 
 ## ✍️ Créditos
 Desarrollador Jr: Bruno Martins
